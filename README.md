@@ -16,6 +16,7 @@ Then, remove the `.git` directory.
 * [ ] Emacs bar
 * [ ] Best completion for `M-x`
 * [X] Neotree
+* [X] Magit
 * [ ] C++ mode
   * [X] CMake mode
   * [ ] Auto completion

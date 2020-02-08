@@ -31,9 +31,11 @@ There are two things you can do about this warning:
 ;; For Markdown
 (use-package markdown-mode)
 
+;; For magit
+(use-package magit)
+
 ;; Emacs theme
 (use-package zenburn-theme)
-
 ;; Load theme zenburn
 (load-theme 'zenburn t)
 
