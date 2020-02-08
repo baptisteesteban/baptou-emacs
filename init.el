@@ -25,7 +25,13 @@ There are two things you can do about this warning:
 ;;   PUT THE PACKAGE WE WANT TO INSTALL HERE
 ;; ===========================================
 
+;; For CMake
 (use-package cmake-mode)
+
+;; For Markdown
+(use-package markdown-mode)
+
+;; Emacs theme
 (use-package zenburn-theme)
 
 ;; Load theme zenburn
