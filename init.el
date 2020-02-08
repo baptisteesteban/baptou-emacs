@@ -39,6 +39,10 @@ There are two things you can do about this warning:
 ;; Load theme zenburn
 (load-theme 'zenburn t)
 
+;; For parenthesis
+(use-package rainbow-delimiters)
+(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+
 ;; neotree --sidebar for project file navigation
 (use-package neotree
   :config (global-set-key "\C-x\ d" 'neotree-toggle))
