@@ -14,6 +14,7 @@ git clone https://github.com/baptisteesteban/baptou-emacs.git ~/.emacs.d
 * [ ] Emacs Theme
 * [ ] Emacs bar
 * [ ] Best completion for `M-x`
+* [X] Neotree
 * [ ] C++ mode
   * [X] CMake mode
   * [ ] Auto completion
