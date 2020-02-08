@@ -11,16 +11,16 @@ git clone https://github.com/baptisteesteban/baptou-emacs.git ~/.emacs.d
 
 # TODO List
 
-* [] Emacs Theme
-* [] Emacs bar
-* [] Best completion for `M-x`
-* [] C++ mode
+* [ ] Emacs Theme
+* [ ] Emacs bar
+* [ ] Best completion for `M-x`
+* [ ] C++ mode
   * [X] CMake mode
-  * [] Auto completion
-  * [] Formatting
-  * [] Linter
-* [] Python mode
-  * [] Linter
-  * [] Formatting
-  * [] Auto completion
+  * [ ] Auto completion
+  * [ ] Formatting
+  * [ ] Linter
+* [ ] Python mode
+  * [ ] Linter
+  * [ ] Formatting
+  * [ ] Auto completion
 * [X] Markdown mode
