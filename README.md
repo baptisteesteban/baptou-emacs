@@ -17,9 +17,9 @@ Then, remove the `.git` directory.
 * [ ] Best completion for `M-x`
 * [X] Neotree
 * [X] Magit
-* [ ] Delimiters
+* [X] Delimiters
   * [X] Rainbow delimiters
-  * [ ] Highlight delimiters
+  * [X] Highlight delimiters
 * [ ] C++ mode
   * [X] CMake mode
   * [ ] Auto completion

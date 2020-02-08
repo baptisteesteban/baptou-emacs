@@ -42,6 +42,7 @@ There are two things you can do about this warning:
 ;; For parenthesis
 (use-package rainbow-delimiters)
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+(show-paren-mode 1)
 
 ;; neotree --sidebar for project file navigation
 (use-package neotree
