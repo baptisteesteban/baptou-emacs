@@ -8,6 +8,7 @@ To use it, just
 ```
 git clone https://github.com/baptisteesteban/baptou-emacs.git ~/.emacs.d
 ```
+Then, remove the `.git` directory.
 
 # TODO List
 
