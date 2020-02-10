@@ -63,3 +63,4 @@ There are two things you can do about this warning:
 
 (add-to-list 'load-path "~/.emacs.d/scripts/")
 (require 'baptou-cpp)
+(require 'baptou-python)

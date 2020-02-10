@@ -24,11 +24,11 @@ Then, remove the `.git` directory.
   * [X] Highlight delimiters
 * [ ] C++ mode
   * [X] CMake mode
-  * [ ] Auto completion
+  * [X] Auto completion
   * [ ] Formatting
   * [ ] Linter
 * [ ] Python mode
   * [ ] Linter
   * [ ] Formatting
-  * [ ] Auto completion
+  * [X] Auto completion
 * [X] Markdown mode
