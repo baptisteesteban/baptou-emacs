@@ -21,6 +21,9 @@ There are two things you can do about this warning:
 (require 'use-package)
 (setq use-package-always-ensure t)
 
+(global-linum-mode t)
+(setq linum-format "%4d \u2502 ")
+
 ;; ===========================================
 ;;   PUT THE PACKAGE WE WANT TO INSTALL HERE
 ;; ===========================================
