@@ -26,9 +26,9 @@ Then, remove the `.git` directory.
   * [X] CMake mode
   * [X] Auto completion
   * [ ] Formatting
-  * [ ] Linter
+  * [X] Linter
 * [ ] Python mode
-  * [ ] Linter
+  * [X] Linter
   * [ ] Formatting
   * [X] Auto completion
 * [X] Markdown mode

@@ -61,6 +61,9 @@ There are two things you can do about this warning:
 (setq company-dabbrev-downcase 0)
 (setq company-idle-delay 0)
 
+(use-package flycheck)
+(global-flycheck-mode)
+
 (add-to-list 'load-path "~/.emacs.d/scripts/")
 (require 'baptou-cpp)
 (require 'baptou-python)
