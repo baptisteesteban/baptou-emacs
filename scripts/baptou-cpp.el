@@ -1,6 +1,9 @@
 ;; For CMake
 (use-package cmake-mode)
 
+(setq c-default-style "linux"
+      c-basic-offset 4)
+
 (use-package company-irony)
 (use-package company-irony-c-headers)
 (eval-after-load 'company
