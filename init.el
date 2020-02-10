@@ -35,9 +35,9 @@ There are two things you can do about this warning:
 (use-package magit)
 
 ;; Emacs theme
-(use-package zenburn-theme)
+(use-package doom-themes)
 ;; Load theme zenburn
-(load-theme 'zenburn t)
+(load-theme 'doom-tomorrow-night t)
 
 ;; For parenthesis
 (use-package rainbow-delimiters)
@@ -49,3 +49,9 @@ There are two things you can do about this warning:
   :config (global-set-key "\C-x\ d" 'neotree-toggle))
 (neotree-refresh)
 (neotree-toggle)
+
+(use-package ivy
+  :custom
+  (ivy-use-selectable-prompt t)
+  :config
+  (ivy-mode t))

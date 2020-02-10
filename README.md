@@ -12,9 +12,9 @@ Then, remove the `.git` directory.
 
 # TODO List
 
-* [ ] Emacs Theme
+* [X] Emacs Theme
 * [ ] Emacs bar
-* [ ] Best completion for `M-x`
+* [X] Best completion for `M-x`
 * [X] Neotree
 * [X] Magit
 * [X] Delimiters
