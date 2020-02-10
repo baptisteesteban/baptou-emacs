@@ -24,8 +24,6 @@ There are two things you can do about this warning:
 (global-linum-mode t)
 (setq linum-format "%4d \u2502 ")
 
-(require 'baptou-cpp)
-
 ;; ===========================================
 ;;   PUT THE PACKAGE WE WANT TO INSTALL HERE
 ;; ===========================================
@@ -57,3 +55,9 @@ There are two things you can do about this warning:
   (ivy-use-selectable-prompt t)
   :config
   (ivy-mode t))
+
+(use-package company)
+(add-hook 'after-init-hook 'global-company-mode)
+
+(add-to-list 'load-path "~/.emacs.d/scripts/")
+(require 'baptou-cpp)

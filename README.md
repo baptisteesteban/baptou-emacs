@@ -15,6 +15,7 @@ Then, remove the `.git` directory.
 * [X] Emacs Theme
 * [ ] Emacs bar
 * [X] Linum mode
+* [X] Company
 * [X] Best completion for `M-x`
 * [X] Neotree
 * [X] Magit
