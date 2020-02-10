@@ -24,12 +24,11 @@ There are two things you can do about this warning:
 (global-linum-mode t)
 (setq linum-format "%4d \u2502 ")
 
+(require 'baptou-cpp)
+
 ;; ===========================================
 ;;   PUT THE PACKAGE WE WANT TO INSTALL HERE
 ;; ===========================================
-
-;; For CMake
-(use-package cmake-mode)
 
 ;; For Markdown
 (use-package markdown-mode)
