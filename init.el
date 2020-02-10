@@ -58,6 +58,8 @@ There are two things you can do about this warning:
 
 (use-package company)
 (add-hook 'after-init-hook 'global-company-mode)
+(setq company-dabbrev-downcase 0)
+(setq company-idle-delay 0)
 
 (add-to-list 'load-path "~/.emacs.d/scripts/")
 (require 'baptou-cpp)
